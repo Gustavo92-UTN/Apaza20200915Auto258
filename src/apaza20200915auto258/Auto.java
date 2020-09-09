@@ -1,15 +1,15 @@
 package apaza20200915auto258;
 public class Auto {
-    String marca;
-    String modelo;
-    int kilometraje;
+    private String marca;
+    private String modelo;
+    private int kilometraje;
 //Constructor por defecto
     public Auto(){
     }
 //Constructor con tres parametros
     public Auto(String marca, String modelo, int kilometraje){
-        //this.marca = marca;
-        //this.modelo = modelo;
+        this.marca = marca;
+        this.modelo = modelo;
     }
 //Metodos setter y getter  
     public void setKilometraje(int kilometraje){
